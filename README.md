@@ -1,5 +1,5 @@
 # VPNHelper
-Set of Various scripts for connecting to various **free** vpn services
+Set of various scripts for connecting and managing various **free** vpn services
 
 
 ## VPN Services
