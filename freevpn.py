@@ -2,10 +2,14 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+
+__author__ =wrathdev GGSIPUResultTracker orekihotaro demonnezuko varmaincorp hotarooreki nezukodemon"
+
 RE_PASS = re.compile(r'(<li><strong>Password:<\/strong>)(?P<password>[^<]+)(<\/li>)')
 
 TEXT_ONLINE = 'Online'
 VPNS = ('me', 'eu', 'se', 'im', 'it', 'be', 'co.uk')
+
 
 def get_password(username):
     """
