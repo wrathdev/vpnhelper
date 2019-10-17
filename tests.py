@@ -23,10 +23,6 @@ class data_process_TestCases(unittest.TestCase):
     subject_file = os.path.join(RESOURCE_ROOT, 'subjects.json')
     result_file = os.path.join(RESOURCE_ROOT, 'results.json')
 
-    def setUp(self):
-        # To incorporate large asserEquals calls
-        self.maxDiff = None
-
     def test_has_page_subjects(self):
         # Load data file
         with open(self.subject_data_file, 'r') as inputfile:
