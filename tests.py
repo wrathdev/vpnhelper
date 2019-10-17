@@ -10,6 +10,7 @@ from ggsipu_result.pdftotext import _invoke_pdftotext
 TESTS_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_ROOT = os.path.dirname(TESTS_ROOT)
 RESOURCE_ROOT = os.path.join(PROJECT_ROOT, 'Resources')
+RESOURCE_DIRS = os.path.join(PROJECT_ROOT, 'DIR_Resources')
 
 # Append project dir to PATH
 sys.path.append(PROJECT_ROOT)
