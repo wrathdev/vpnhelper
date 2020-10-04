@@ -31,7 +31,7 @@ def get_password(username):
     return passw.strip() if passw else None
 
 def get_vpn_status():
-     """
+    """
     Get the status of FreeVPN Servers
     It scrapes the FreeVPN website for server status and details.
 
