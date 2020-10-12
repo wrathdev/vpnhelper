@@ -31,7 +31,7 @@ def get_password(username):
     return passw.strip() if passw else None
 
 def get_vpn_status():
-     """
+    """
     Get the status of FreeVPN Servers
     It scrapes the FreeVPN website for server status and details.
 
@@ -48,7 +48,7 @@ def get_vpn_status():
     if table:
         table = table[0]
         tbody = table.tbody
-        trows = tbody.find_all('tr')[1:]
+        trows = tbody.find_all('tr')
         for row in trows:
             name = None
             loc = None
